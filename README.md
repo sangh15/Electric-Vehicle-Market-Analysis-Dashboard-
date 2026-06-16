@@ -28,8 +28,8 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 ## 📊 Dataset Overview  
 
-- Records: 150,000+ rows  
-- Features: 17 columns  
+- **Records:** 150,000+ rows  
+- **Features:** 17 columns  
 
 ### Includes:
 - Vehicle Info: VIN (ID), Make, Model, Model Year  
