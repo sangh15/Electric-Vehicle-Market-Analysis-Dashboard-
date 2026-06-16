@@ -50,13 +50,14 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 ---
 
 ## 🔄 Project Workflow  
-1.Data Acquisition & Integration
-2.Data Understanding & Exploration
-3.KPI Definition & Development
-4.Trend Analysis (Time-Series Insights)
-5.Geospatial Analysis (State-wise Distribution)
-6.Manufacturer Performance Analysis (Top N Segmentation)
-7.Dashboard Design, Visualization & Insight Delivery  
+
+1. Data Acquisition & Integration  
+2. Data Understanding & Exploration  
+3. KPI Definition & Development  
+4. Trend Analysis (Time-Series Insights)  
+5. Geospatial Analysis (State-wise Distribution)  
+6. Manufacturer Performance Analysis (Top N Segmentation)  
+7. Dashboard Design, Visualization & Insight Delivery   
 
 ---
 
