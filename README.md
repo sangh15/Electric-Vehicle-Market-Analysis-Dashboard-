@@ -63,14 +63,14 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 ## 🔧 Data Preparation   
 
-- Filtered dataset for relevant records (2011–2024)  
-- Cleaned and validated data for accuracy and consistency  
-- Standardized naming conventions using aliases (e.g., BEV, PHEV)  
+- Filtered dataset for relevant records (2011–2024).  
+- Cleaned and validated data for accuracy and consistency.  
+- Standardized naming conventions using aliases (e.g., BEV, PHEV).  
 - Created derived features:
   - Total Vehicles: `COUNTD([Vehicle ID])`  
   - EV Type Distribution: BEV vs PHEV  
   - Average Electric Range: Mean electric range  
-- Prepared dataset for visualization and dashboard development
+- Prepared dataset for visualization and dashboard development.
 
 ---
 
@@ -84,29 +84,29 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 ## 🔍 Key Insights    
 
-- EV adoption shows exponential growth, peaking in 2023  
-- Tesla dominates the market with over 52% share   
-- EV adoption is highly concentrated in Washington state  
-- Around 41% of vehicles are eligible for CAFV incentives   
+- EV adoption shows exponential growth, peaking in 2023.  
+- Tesla dominates the market with over 52% share.   
+- EV adoption is highly concentrated in Washington state.  
+- Around 41% of vehicles are eligible for CAFV incentives.   
 
 ---
 
 ## 💡 Business Recommendations  
 
-- Shift focus toward BEVs to remain competitive  
-- Improve electric range to match market leaders  
-- Expand EV infrastructure in underdeveloped regions  
-- Ensure compliance with CAFV eligibility standards  
-- Leverage data insights for long-term EV growth strategies  
+- Shift focus toward BEVs to remain competitive.  
+- Improve electric range to match market leaders.  
+- Expand EV infrastructure in underdeveloped regions.  
+- Ensure compliance with CAFV eligibility standards.  
+- Leverage data insights for long-term EV growth strategies.  
 
 ---
 
 ## ▶️ How to Run  
 
-1. Open Tableau Desktop or Tableau Public  
-2. Load the dataset (CSV file)  
-3. Open the provided .twb dashboard file  
-4. Explore the dashboard using filters and visuals   
+1. Open Tableau Desktop or Tableau Public.  
+2. Load the dataset (CSV file).  
+3. Open the provided .twb dashboard file.  
+4. Explore the dashboard using filters and visuals.   
 
 ---
 
