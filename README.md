@@ -1,7 +1,7 @@
 
 # ⚡ Electric Vehicle Market Analysis Dashboard 
 
-### 📊 End-to-End Data Analytics Project | Tableau • Excel • Data Visualization  
+### 📊 Data Analytics Project | Tableau • Excel • Data Visualization  
 
 ![Excel](https://img.shields.io/badge/Data-Excel-green)  ![Tableau](https://img.shields.io/badge/Visualization-Tableau-orange)  
 
