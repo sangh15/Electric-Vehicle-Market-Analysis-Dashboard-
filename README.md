@@ -3,8 +3,7 @@
 
 ### 📊 End-to-End Data Analytics Project | Tableau • Excel • Data Visualization  
 
-![Excel](https://img.shields.io/badge/Data-Excel-green)  
-![Tableau](https://img.shields.io/badge/Visualization-Tableau-orange)  
+![Excel](https://img.shields.io/badge/Data-Excel-green)  ![Tableau](https://img.shields.io/badge/Visualization-Tableau-orange)  
 
 ---
 
@@ -22,7 +21,6 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 - What is the overall market growth and acceptance of EVs since 2011?  
 - What is the average electric range across manufacturers?  
-- How is the market split between BEVs and PHEVs?  
 - Which manufacturers and models are market leaders?  
 - What percentage of vehicles are eligible for CAFV incentives?  
 
@@ -30,8 +28,8 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 ## 📊 Dataset Overview  
 
-- **Records:** 150,000+ rows  
-- **Features:** 17 columns  
+- *Records:* 150,000+ rows  
+- *Features:* 17 columns  
 
 ### Includes:
 - **Vehicle Info:** VIN (ID), Make, Model, Model Year  
@@ -47,44 +45,31 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 |---------|-----------|
 | Data Storage | Excel / CSV |
 | Data Processing | Tableau (Logical & Physical Layers) |
-| Visualization | Tableau Desktop / Tableau Public |
+| Visualization | Tableau Desktop |
 
 ---
 
 ## 🔄 Project Workflow  
-
-1. **Data Connection**  
-   - Connected CSV dataset to Tableau using text file connectors  
-
-2. **Data Walkthrough**  
-   - Explored fields, data types, and key identifiers (Vehicle ID)  
-
-3. **KPI Development**  
-   - Created calculated fields for key performance metrics  
-
-4. **Trend Analysis**  
-   - Built area and line charts for year-over-year growth  
-
-5. **Geographic Mapping**  
-   - Visualized EV distribution using maps  
-
-6. **Manufacturer Analysis**  
-   - Implemented "Top N" filters for leading brands  
-
-7. **Dashboard Design**  
-   - Designed interactive dashboard using containers and clean UI  
+1.Data Acquisition & Integration
+2.Data Understanding & Exploration
+3.KPI Definition & Development
+4.Trend Analysis (Time-Series Insights)
+5.Geospatial Analysis (State-wise Distribution)
+6.Manufacturer Performance Analysis (Top N Segmentation)
+7.Dashboard Design, Visualization & Insight Delivery  
 
 ---
 
-## 🔧 Data Preparation  
+## 🔧 Data Preparation   
 
-- Applied filters for records between **2011–2024**  
-- Created calculated fields:
+- Filtered dataset for relevant records (2011–2024)  
+- Cleaned and validated data for accuracy and consistency  
+- Standardized naming conventions using aliases (e.g., BEV, PHEV)  
+- Created derived features:
   - **Total Vehicles:** `COUNTD([Vehicle ID])`  
-  - **EV Type Split:** BEV vs PHEV distribution  
-  - **Average Range:** Mean electric range  
-- Standardized naming using aliases (e.g., BEV, PHEV)  
-- Cleaned and validated dataset before visualization  
+  - **EV Type Distribution:** BEV vs PHEV  
+  - **Average Electric Range:** Mean electric range  
+- Prepared dataset for visualization and dashboard development  
 
 ---
 
@@ -96,43 +81,31 @@ The EV industry and regulatory bodies need to answer critical questions such as:
 
 ---
 
-## 🔍 Key Insights  
+## 🔍 Key Insights    
 
-- **Exponential Growth:** EV adoption peaked significantly in 2023  
-- **Market Dominance:** Tesla accounts for over **52%** of total EVs  
-- **BEV vs PHEV:** BEVs dominate with **78%**, PHEVs at **22%**  
-- **Geographic Concentration:** Washington state leads EV adoption  
-- **CAFV Eligibility:** ~41% vehicles qualify for incentives  
+- EV adoption shows exponential growth, peaking in 2023  
+- Tesla dominates the market with over 52% share   
+- EV adoption is highly concentrated in Washington state  
+- Around 41% of vehicles are eligible for CAFV incentives   
 
 ---
 
 ## 💡 Business Recommendations  
 
-- **Manufacturer Strategy:** Shift focus toward BEVs to remain competitive  
-- **Range Development:** Improve average EV range to match market leaders  
-- **Regional Expansion:** Expand infrastructure in underdeveloped regions  
-- **Regulatory Alignment:** Ensure CAFV eligibility compliance  
-- **Strategic Planning:** Use data insights for long-term EV growth strategies  
+- Shift focus toward BEVs to remain competitive  
+- Improve electric range to match market leaders  
+- Expand EV infrastructure in underdeveloped regions  
+- Ensure compliance with CAFV eligibility standards  
+- Leverage data insights for long-term EV growth strategies  
 
 ---
 
 ## ▶️ How to Run  
 
-1. Download the dataset (Electric Vehicle Population Data CSV)  
-2. Open **Tableau Desktop** or **Tableau Public**  
-3. Connect using **Text File → Select CSV**  
-4. Apply filter: **Model Year ≥ 2011**  
-5. Open the **Dashboard tab** to explore insights  
+1. Open Tableau Desktop or Tableau Public  
+2. Load the dataset (CSV file)  
+3. Open the provided .twb dashboard file  
+4. Explore the dashboard using filters and visuals   
 
 ---
 
-## 👨‍💻 Author  
-
-**[Your Name]**  
-Aspiring Data Analyst | Excel | Tableau  
-
----
-
-## ⭐ If you found this useful  
-
-Give this repo a ⭐ and share your feedback!
